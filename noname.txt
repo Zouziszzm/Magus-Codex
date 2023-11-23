@@ -1,1 +1,31 @@
 firing main maech.
+project-root/
+│
+├── node_modules/         # Dependencies installed by npm
+│
+├── src/                  # Source code of the application
+│   ├── index.js          # Entry point of the application
+│   ├── ...
+│
+├── public/               # Public assets (e.g., HTML, CSS, images)
+│   ├── index.html
+│   ├── styles/
+│   └── ...
+│
+├── tests/                # Test files
+│   ├── unit/
+│   ├── integration/
+│   └── ...
+│
+├── config/               # Configuration files
+│   ├── env/
+│   └── ...
+│
+├── dist/                 # Build output (generated code)
+│
+├── .gitignore            # Git ignore file to specify ignored files and directories
+├── package.json          # Project metadata and dependencies
+├── package-lock.json     # Dependency lock file for deterministic builds
+├── README.md             # Project documentation
+└── ...
+

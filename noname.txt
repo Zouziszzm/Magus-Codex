@@ -29,3 +29,17 @@ project-root/
 ├── README.md             # Project documentation
 └── ...
 
+Pages:
+The pages directory is a fundamental part of Next.js. Each file inside the pages directory corresponds to a route in your application. For example, pages/index.js corresponds to the root route (/), and pages/about.js corresponds to the /about route.
+
+Dynamic Routes:
+Next.js allows you to create dynamic routes using brackets [] in the pages directory. For example, a file named pages/post/[id].js allows you to create dynamic routes like /post/1 or /post/abc.
+
+API Routes:
+You can create API routes in the pages/api directory. These routes are server-side and can be used to handle server-side logic, database operations, or any other backend functionality.
+
+Components:
+You'll likely create a components directory to store React components that are used across multiple pages. This helps in maintaining a modular and organized codebase.
+
+Styles:
+The styles directory is where you can keep your global styles or styles specific to components/pages. You might use CSS, SCSS, or a styling solution like styled-components.

@@ -43,3 +43,21 @@ You'll likely create a components directory to store React components that are u
 
 Styles:
 The styles directory is where you can keep your global styles or styles specific to components/pages. You might use CSS, SCSS, or a styling solution like styled-components.
+
+Public Folder:
+The public folder is used to serve static assets such as images, fonts, and other files. Files placed in the public folder are served as-is.
+
+Layouts:
+You might create a layouts directory to store layout components that wrap around your page components. This is useful for creating a consistent layout structure across multiple pages.
+
+Head:
+The Head component from next/head allows you to customize the head of your pages. This is where you can add meta tags, link to stylesheets, and perform other operations related to the document head.
+
+Routing:
+Next.js provides the Link component for client-side navigation. This allows you to create links between pages without a full page reload.
+
+Data Fetching:
+You can use functions like getStaticProps or getServerSideProps to fetch data for your pages. This is particularly useful for static site generation or server-side rendering.
+
+Deployment:
+When you're ready to deploy your Next.js application, you may need to consider deployment options. Popular choices include Vercel, Netlify, and traditional hosting solutions.

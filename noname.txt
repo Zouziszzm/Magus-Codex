@@ -61,3 +61,37 @@ You can use functions like getStaticProps or getServerSideProps to fetch data fo
 
 Deployment:
 When you're ready to deploy your Next.js application, you may need to consider deployment options. Popular choices include Vercel, Netlify, and traditional hosting solutions.
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ext JS Example</title>
+
+    <!-- Include Ext JS library -->
+    <link rel="stylesheet" type="text/css" href="path/to/extjs/resources/css/ext-all.css">
+    <script type="text/javascript" src="path/to/extjs/ext-all.js"></script>
+
+    <script>
+        // Define Ext JS application
+        Ext.application({
+            name: 'MyApp',
+            launch: function () {
+                // Create a window
+                var myWindow = Ext.create('Ext.window.Window', {
+                    title: 'Ext JS Example',
+                    width: 300,
+                    height: 200,
+                    layout: 'fit',
+                    items: [{
+                        xtype: 'button',
+                        text: 'Click Me',
+                        handler: function () {
+                            // Show an alert when the button is clicked
+                            Ext.Msg.alert('Alert', 'Button Clicked!');
+                        }
+                    }]
+                });
+
+

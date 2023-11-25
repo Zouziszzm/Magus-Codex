@@ -93,5 +93,16 @@ When you're ready to deploy your Next.js application, you may need to consider d
                         }
                     }]
                 });
+                // Show the window
+                myWindow.show();
+            }
+        });
+    </script>
+</head>
 
+<body>
+    <!-- Your HTML content goes here -->
+</body>
+
+</html>
 

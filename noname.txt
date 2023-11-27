@@ -128,3 +128,31 @@ When you're ready to deploy your Next.js application, you may need to consider d
     <script src="script.js"></script>
 </body>
 </html>
+
+// AnimatedSVG.js
+import { motion } from 'framer-motion';
+import PathComponent from './PathComponent';
+
+const AnimatedSVG = () => {
+  return (
+    <svg width="200" height="200" xmlns="http://www.w3.org/2000/svg">
+      <PathComponent />
+      <motion.circle
+        cx="10"
+        cy="80"
+        r="8"
+        fill="red"
+        animate={{
+          motionPath: {
+            path: "M10 80 C 40 10, 65 10, 95 80 S 150 150, 180 80",
+            align: "auto",
+            autoRotate: true,
+          },
+        }}
+      />
+    </svg>
+  );
+};
+
+export default AnimatedSVG;
+

@@ -1,3 +1,24 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+:root {
+  --background_color: #212529;
+  --icon_color: #f8f9fa;
+}
+
+[data-theme="dark"] {
+  --background_color: #f8f9fa;
+  --icon_color: #212529;
+}
+
+.bgcolor {
+  background-color: var(--background_color);
+}
+.icon_border {
+  border-color: var(--icon_color);
+}
+.icon_color {
+  color: var(--icon_color);
+}

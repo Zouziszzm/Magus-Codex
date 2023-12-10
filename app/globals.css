@@ -22,3 +22,6 @@
 .icon_color {
   color: var(--icon_color);
 }
+.bgcoloediv {
+  background-color: var(--icon_color);
+}

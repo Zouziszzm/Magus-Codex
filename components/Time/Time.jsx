@@ -12,6 +12,7 @@ const Time = ({ className }) => {
         hour12: true,
         hour: "numeric",
         minute: "numeric",
+        second: "numeric", // Fix typo here
       };
 
       const timeString = new Date().toLocaleTimeString("en-US", options);

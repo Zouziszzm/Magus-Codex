@@ -6,17 +6,12 @@ import { motion, useAnimationControls } from "framer-motion";
 const Animatecontext = ({ children }) => {
   const controls = useAnimationControls();
 
-  useEffect(() => {
-    controls.set("initial");
-    controls.start("animate");
-  }, [controls]);
-
   const animationVariants = {
     animate: {
       opacity: 1,
       x: 0,
       y: 0,
-      transition: { duration: 0.9 },
+      transition: { duration: 0.9, ease: "easeIn" },
     },
     initial: {
       opacity: 0,

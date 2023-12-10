@@ -9,7 +9,7 @@ const Page = () => {
     <>
       {Load ? (
         <>
-          <Home />
+          <Home redirect={setLoad} />
         </>
       ) : (
         <>

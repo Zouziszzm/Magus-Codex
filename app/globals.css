@@ -25,3 +25,6 @@
 .bgcoloediv {
   background-color: var(--icon_color);
 }
+.bgcolorinverse {
+  background-color: var(--background_color);
+}

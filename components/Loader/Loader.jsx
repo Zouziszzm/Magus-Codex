@@ -1,15 +1,15 @@
 "use client";
-import React from "react";
-import { useState, useContext } from "react";
+import { useState, useContext, useEffect } from "react";
 import { LuCloudMoon, FiSun } from "../Icons/Icons.js";
 import Time from "../Time/Time.jsx";
 import ThemeContext from "@/context/ThemeContext.js";
 import LanguageContext from "@/context/LanguageContext.js";
 import AnimateContext from "@/context/AnimateContext.js";
 import Svg from "../Svgs/Svg.jsx";
-import { motion } from "framer-motion";
+import { animate, motion } from "framer-motion";
 
 const Loader = ({ redirect }) => {
+  const [out, setOut] = useState(false);
   const { isDark, setIsDark, toggleDarkMode } = useContext(ThemeContext);
   const { Lang, setLang, toggleLang } = useContext(LanguageContext);
   const { controls, animationVariants } = useContext(AnimateContext);
@@ -25,13 +25,17 @@ const Loader = ({ redirect }) => {
     controls.set("initial");
     controls.start("animate");
   };
+  useEffect(() => {
+    controls.set("initial");
+    controls.start("animate");
+  }, [controls]);
 
   return (
     <>
       <div className="flex flex-col items-center h-screen">
         <div className="p-2 vs:w-full lg:w-[70%]">
           <div className="flex justify-between items-center">
-            <Time className="text-sm font-noto font-medium" />
+            <Time className="text-sm font-noto font-medium icon_color" />
             <div className="flex gap-1">
               <div
                 className="w-[30px] h-[30px] border-[1px] icon_border flex justify-center items-center cursor-pointer"
@@ -116,7 +120,7 @@ const Loader = ({ redirect }) => {
             variants={animationVariants}
           >
             <div
-              className="flex h-fit icon_color font-noto cursor-pointer"
+              className="flex h-fit icon_color font-noto cursor-pointer flex-col items-center justify-center"
               onClick={() => {
                 redirect(true);
               }}
@@ -124,10 +128,38 @@ const Loader = ({ redirect }) => {
               {Lang ? (
                 <>
                   <p className="font-medium">HomePage</p>
+                  <div className="h-[5px] bgcoloediv w-full m-1 flex items-center relative overflow-hidden">
+                    <motion.div
+                      initial={{ left: "0%", right: "100%" }}
+                      animate={{
+                        left: "100%",
+                        right: "0%",
+                      }}
+                      transition={{
+                        duration: 1.5,
+                        repeat: Infinity,
+                      }}
+                      className="h-[5px] w-[5px] bgcolorinverse absolute"
+                    ></motion.div>
+                  </div>
                 </>
               ) : (
                 <>
                   <p className="font-bold">ホームページ,</p>
+                  <div className="h-[5px] bgcoloediv w-full m-1 flex items-center relative overflow-hidden">
+                    <motion.div
+                      initial={{ left: "0%", right: "100%" }}
+                      animate={{
+                        left: "100%",
+                        right: "0%",
+                      }}
+                      transition={{
+                        duration: 1.5,
+                        repeat: Infinity,
+                      }}
+                      className="h-[5px] w-[5px] bgcolorinverse absolute"
+                    ></motion.div>
+                  </div>
                 </>
               )}
             </div>

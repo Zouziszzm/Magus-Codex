@@ -6,11 +6,13 @@
 :root {
   --background_color: #212529;
   --icon_color: #f8f9fa;
+  --introcontrast: #adb5bd;
 }
 
 [data-theme="dark"] {
   --background_color: #f8f9fa;
   --icon_color: #212529;
+  --introcontrast: #495057;
 }
 
 .bgcolor {
@@ -27,4 +29,7 @@
 }
 .bgcolorinverse {
   background-color: var(--background_color);
+}
+.introcontrast {
+  color: var(--introcontrast);
 }

@@ -62,9 +62,9 @@ const Loader = ({ redirect }) => {
           </div>
         </div>
         <div className="p-2 h-[100%] vs:w-full lg:w-[70%]">
-          <div className="flex justify-center p-4 gap-2">
+          <div className="flex justify-center p-4 gap-4">
             <motion.div
-              className="flex font-noto items-center font-black icon_color text-3xl"
+              className="flex font-noto items-center font-black introcontrast gap-1 text-3xl"
               animate={controls}
               variants={animationVariants}
             >

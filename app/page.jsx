@@ -1,24 +1,39 @@
 "use client";
-import { useState } from "react";
-import Home from "@/components/Home/Home";
+import React, { useState, useContext } from "react";
 import Loader from "@/components/Loader/Loader";
-import About from "@/components/About/About";
-import Nav from "@/components/Nav/Nav";
+import Mainpg from "@/components/Main/Mainpg";
+import BookStore from "@/components/BookStore/BookStore";
+import HindiOcr from "@/components/HindiOcr/HindiOcr";
+import HammerKing from "@/components/HammerKing/HammerKing";
+import Voxel from "@/components/Voxel/Voxel";
+import WpageContext from "@/context/WpageContext";
 const Page = () => {
   const [Load, setLoad] = useState(false);
+  const { Wpage, setWpage } = useContext(WpageContext);
+
+  const renderComponent = () => {
+    switch (Wpage) {
+      case "BookStore":
+        return <BookStore />;
+      case "HindiOcr":
+        return <HindiOcr />;
+      case "HammerKing":
+        return <HammerKing />;
+      case "Voxel":
+        return <Voxel />;
+      default:
+        return <Mainpg />;
+    }
+  };
 
   return (
     <>
-      <div className="">
+      <div className="relative">
         {Load ? (
-          <>
-            <Nav className="z-10 fixed w-full backdrop-blur-[10px]" />
-            <Home />
-            <About />
-          </>
+          <>{renderComponent()}</>
         ) : (
           <>
-            <Loader redirect={setLoad} />
+            <Loader redirect={() => setLoad(true)} />
           </>
         )}
       </div>

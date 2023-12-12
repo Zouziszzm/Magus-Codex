@@ -5,7 +5,6 @@ import ThemeContext from "@/context/ThemeContext.js";
 import LanguageContext from "@/context/LanguageContext.js";
 import Time from "../Time/Time.jsx";
 import { motion } from "framer-motion";
-import Activenav from "../Activenav/Activenav";
 const Nav = ({ className }) => {
   const { isDark, setIsDark, toggleDarkMode } = useContext(ThemeContext);
   const { Lang, setLang, toggleLang } = useContext(LanguageContext);

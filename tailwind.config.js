@@ -22,6 +22,7 @@ module.exports = {
         "2xl": "1536px", // custom 2xl breakpoint
       },
       fontFamily: {
+        not_sans: ["Noto Sans", "sans-serif"],
         noto: ["Noto Sans Mono", "monospace"], // Replace 'YourFontFamily' with the actual font family name
       },
     },

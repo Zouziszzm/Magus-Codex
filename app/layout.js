@@ -1,6 +1,7 @@
 import Themecontext from "@/context/Themecontext";
 import Languagecontext from "@/context/Languagecontext";
 import Animatecontext from "@/context/Animatecontext";
+import Wpagecontext from "@/context/Wpagecontext";
 import "./globals.css";
 
 export const metadata = {
@@ -15,7 +16,9 @@ export default function RootLayout({ children }) {
       <body className="h-screen">
         <Themecontext>
           <Languagecontext>
-            <Animatecontext> {children}</Animatecontext>
+            <Animatecontext>
+              <Wpagecontext>{children}</Wpagecontext>
+            </Animatecontext>
           </Languagecontext>
         </Themecontext>
       </body>

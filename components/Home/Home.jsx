@@ -2,7 +2,6 @@ import { useContext, useEffect } from "react";
 import AnimateContext from "@/context/AnimateContext.js";
 import { motion } from "framer-motion";
 import LanguageContext from "@/context/LanguageContext.js";
-import Activenav from "../Activenav/Activenav";
 import Svgtwo from "../Svgs/Svgtwo";
 const Home = () => {
   const { Lang, setLang, toggleLang } = useContext(LanguageContext);
@@ -31,7 +30,7 @@ const Home = () => {
               <h1 className="font-noto introcontrast font-bold w-full vs:text-2xl lg:text-4xl">
                 {Lang ? "Hello there!" : "こんにちは！"}
               </h1>
-              <h1 className="font-noto icon_color font-bold w-full vs:text-4xl lg:text-6xl">
+              <h1 className="font-noto icon_color font-bold w-full vs:text-3xl lg:text-5xl">
                 {Lang ? (
                   <>
                     <div className="">

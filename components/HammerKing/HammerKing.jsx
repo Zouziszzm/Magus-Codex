@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 import LanguageContext from "@/context/LanguageContext.js";
 import WpageContext from "@/context/WpageContext.js";
 import Link from "next/link";
+import Image from "next/image.js";
 import { FaAngleRight } from "../Icons/Icons.js";
 const HammerKing = () => {
   const { Lang, setLang, toggleLang } = useContext(LanguageContext);
@@ -107,13 +108,22 @@ const HammerKing = () => {
                 <div className="flex flex-col justify-center gap-2 font-noto font-normal text-justify py-4 vs:w-full lg:w-[75%]">
                   <div className="flex flex-col gap-1 items-center">
                     <div className="p-2 border-[1px] my-2 icon_border">
-                      <img src="projects_indi_img/HammerKing/01.png" />
+                      <Image
+                        loading="lazy"
+                        src="projects_indi_img/HammerKing/01.png"
+                      />
                     </div>
                     <div className="p-2 border-[1px] my-2 icon_border">
-                      <img src="projects_indi_img/HammerKing/02.png" />
+                      <Image
+                        loading="lazy"
+                        src="projects_indi_img/HammerKing/02.png"
+                      />
                     </div>
                     <div className="p-2 border-[1px] my-2 icon_border">
-                      <img src="projects_indi_img/HammerKing/03.png" />
+                      <Image
+                        loading="lazy"
+                        src="projects_indi_img/HammerKing/03.png"
+                      />
                     </div>
                   </div>
                 </div>

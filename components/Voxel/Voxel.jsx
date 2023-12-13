@@ -5,6 +5,8 @@ import LanguageContext from "@/context/LanguageContext.js";
 import WpageContext from "@/context/WpageContext.js";
 import Link from "next/link";
 import { FaAngleRight } from "../Icons/Icons.js";
+import Image from "next/image.js";
+
 const Voxel = () => {
   const { Lang, setLang, toggleLang } = useContext(LanguageContext);
   const { controls, animationVariants } = useContext(AnimateContext);
@@ -109,10 +111,16 @@ const Voxel = () => {
                 <div className="flex flex-col justify-center gap-2 font-noto font-normal text-justify py-4 vs:w-full lg:w-[75%]">
                   <div className="flex flex-col gap-1 items-center">
                     <div className="p-2 border-[1px] my-2 icon_border">
-                      <img src="projects_indi_img/Voxel/01.png" />
+                      <Image
+                        loading="lazy"
+                        src="projects_indi_img/Voxel/01.png"
+                      />
                     </div>
                     <div className="p-2 border-[1px] my-2 icon_border">
-                      <img src="projects_indi_img/Voxel/02.png" />
+                      <Image
+                        loading="lazy"
+                        src="projects_indi_img/Voxel/02.png"
+                      />
                     </div>
                   </div>
                 </div>

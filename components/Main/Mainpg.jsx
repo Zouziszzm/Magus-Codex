@@ -6,6 +6,7 @@ import Profesional_journey from "../prof_Journey/Profesional_journey.jsx";
 import Projects from "../Projects/Projects.jsx";
 import CopyRight from "../CopyRight/CopyRight.jsx";
 import { MdOutlineVerticalAlignTop } from "react-icons/md";
+import Socials from "../Socials/Socials.jsx";
 const Mainpg = () => {
   return (
     <>
@@ -14,6 +15,7 @@ const Mainpg = () => {
       <About />
       <Profesional_journey />
       <Projects />
+      <Socials />
       <CopyRight />
     </>
   );

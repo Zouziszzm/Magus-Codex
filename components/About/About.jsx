@@ -92,8 +92,14 @@ const About = () => {
               </div>
             </div>
             <div className="flex p-4 justify-center items-center vs:order-1 vs:w-full lg:order-2 lg:w-1/3">
-              <div className="p-2 border-[1px] my-2 icon_border min-w-[200px] min-h-[200px]">
-                <img alt="img" className="rounded-md" src="/pfp/unnamed.jpg" />
+              <div className="p-2 border-[1px] my-2 icon_border">
+                <img
+                  alt="img"
+                  width="200"
+                  height="200"
+                  className="rounded-md min-w-[200px] min-h-[200px]"
+                  src="/pfp/unnamed.jpg"
+                />
               </div>
             </div>
           </div>

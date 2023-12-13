@@ -95,8 +95,6 @@ const About = () => {
               <div className="p-2 border-[1px] my-2 icon_border">
                 <img
                   alt="img"
-                  width="200"
-                  height="200"
                   className="rounded-md min-w-[200px] min-h-[200px]"
                   src="/pfp/unnamed.jpg"
                 />

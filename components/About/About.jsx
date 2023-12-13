@@ -96,6 +96,7 @@ const About = () => {
               <div className="p-2 border-[1px] my-2 icon_border w-fit h-fit">
                 <Image
                   loading="lazy"
+                  alt="img"
                   className="rounded-md"
                   src="/pfp/unnamed.jpg"
                 />

@@ -52,8 +52,8 @@ const Profesional_journey = () => {
                   <div className="flex flex-col flex-wrap font-normal vs:w-full lg:w-[35%]">
                     {Lang ? (
                       <p>
-                        Completed the Master's program at KLS Gogte Institute of
-                        Technology in Belgaum, Karnataka
+                        Completed the Master&rsquo;s program at KLS Gogte
+                        Institute of Technology in Belgaum, Karnataka
                       </p>
                     ) : (
                       <p>

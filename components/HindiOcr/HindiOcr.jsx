@@ -111,18 +111,21 @@ const HindiOcr = () => {
                     <div className="p-2 border-[1px] my-2 icon_border">
                       <Image
                         loading="lazy"
+                        alt="img"
                         src="projects_indi_img/HindiOcr/01.png"
                       />
                     </div>
                     <div className="p-2 border-[1px] my-2 icon_border">
                       <Image
                         loading="lazy"
+                        alt="img"
                         src="projects_indi_img/HindiOcr/02.png"
                       />
                     </div>
                     <div className="p-2 border-[1px] my-2 icon_border">
                       <Image
                         loading="lazy"
+                        alt="img"
                         src="projects_indi_img/HindiOcr/03.png"
                       />
                     </div>

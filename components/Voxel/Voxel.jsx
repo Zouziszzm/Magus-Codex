@@ -113,12 +113,14 @@ const Voxel = () => {
                     <div className="p-2 border-[1px] my-2 icon_border">
                       <Image
                         loading="lazy"
+                        alt="img"
                         src="projects_indi_img/Voxel/01.png"
                       />
                     </div>
                     <div className="p-2 border-[1px] my-2 icon_border">
                       <Image
                         loading="lazy"
+                        alt="img"
                         src="projects_indi_img/Voxel/02.png"
                       />
                     </div>

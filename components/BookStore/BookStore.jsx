@@ -105,30 +105,35 @@ const BookStore = () => {
                     <div className="p-2 border-[1px] my-2 icon_border">
                       <Image
                         loading="lazy"
+                        alt="img"
                         src="projects_indi_img/BookStore/01.png"
                       />
                     </div>
                     <div className="p-2 border-[1px] my-2 icon_border">
                       <Image
                         loading="lazy"
+                        alt="img"
                         src="projects_indi_img/BookStore/02.png"
                       />
                     </div>
                     <div className="p-2 border-[1px] my-2 icon_border">
                       <Image
                         loading="lazy"
+                        alt="img"
                         src="projects_indi_img/BookStore/03.png"
                       />
                     </div>
                     <div className="p-2 border-[1px] my-2 icon_border">
                       <Image
                         loading="lazy"
+                        alt="img"
                         src="projects_indi_img/BookStore/04.png"
                       />
                     </div>
                     <div className="p-2 border-[1px] my-2 icon_border">
                       <Image
                         loading="lazy"
+                        alt="img"
                         src="projects_indi_img/BookStore/05.png"
                       />
                     </div>

@@ -66,6 +66,7 @@ const Projects = () => {
                   <div className="p-2 min-w-full border-[1px] icon_border">
                     <Image
                       loading="lazy"
+                      alt="img"
                       className="rounded-sm grayscale hover:grayscale-0"
                       src="projectsthumb/Bookstore.png"
                     />
@@ -90,6 +91,7 @@ const Projects = () => {
                   <div className="p-2 min-w-full border-[1px] icon_border">
                     <Image
                       loading="lazy"
+                      alt="img"
                       className="rounded-sm grayscale hover:grayscale-0"
                       src="projectsthumb/Hindiocr.png"
                     />
@@ -118,6 +120,7 @@ const Projects = () => {
                   <div className="p-2 min-w-full border-[1px] icon_border">
                     <Image
                       loading="lazy"
+                      alt="img"
                       className="rounded-sm grayscale hover:grayscale-0"
                       src="projectsthumb/Game.png"
                     />
@@ -144,6 +147,7 @@ const Projects = () => {
                   <div className="p-2 min-w-full border-[1px] icon_border">
                     <Image
                       loading="lazy"
+                      alt="img"
                       className="rounded-sm grayscale hover:grayscale-0"
                       src="projectsthumb/Voxel.png"
                     />

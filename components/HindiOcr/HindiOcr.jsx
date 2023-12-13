@@ -67,8 +67,8 @@ const HindiOcr = () => {
                     <p className="indent-2">
                       This is personal project in which the hindi inscriptioncan
                       be extrated from the image and the output can be
-                      translated to english using hugging face's translation
-                      transformer.
+                      translated to english using hugging face&apos;s
+                      translation transformer.
                     </p>
                   </>
                 ) : (

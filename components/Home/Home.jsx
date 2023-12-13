@@ -35,8 +35,8 @@ const Home = () => {
                   <>
                     <div className="">
                       <p className="flex flex-wrap">
-                        <p className="introcontrast mr-4">I'm</p>AlFarhaan Khan
-                        Inamdar
+                        <p className="introcontrast mr-4">I&apos;m</p>AlFarhaan
+                        Khan Inamdar
                       </p>
                     </div>
                   </>

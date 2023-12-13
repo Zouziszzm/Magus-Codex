@@ -68,13 +68,13 @@ const Voxel = () => {
                     <p className="indent-2">
                       MagicaVoxel is a popular voxel-based 3D modeling software
                       that allows you to create 3D pixel art scenes and objects.
-                      It's a powerful tool for designing simple and charming 3D
-                      worlds, and it's often used for game development, art
-                      projects, and animations. I recently had the pleasure of
-                      creating a charming Japanese-style hut and room using
-                      MagicaVoxel. It was an enjoyable project that allowed me
-                      to capture the serene and traditional atmosphere of a
-                      Japanese dwelling.
+                      It&apos;s a powerful tool for designing simple and
+                      charming 3D worlds, and it&apos;s often used for game
+                      development, art projects, and animations. I recently had
+                      the pleasure of creating a charming Japanese-style hut and
+                      room using MagicaVoxel. It was an enjoyable project that
+                      allowed me to capture the serene and traditional
+                      atmosphere of a Japanese dwelling.
                     </p>
                   </>
                 ) : (

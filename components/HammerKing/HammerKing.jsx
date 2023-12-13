@@ -65,19 +65,19 @@ const HammerKing = () => {
                 {Lang ? (
                   <>
                     <p className="indent-2">
-                      Welcome to "Hammer King," a thrilling 2D game developed in
-                      Unity! In this game, you play as the mighty Hammer King,
-                      smashing your way through three challenging levels while
-                      accumulating a high score. This README provides essential
-                      information on how to play the game and contribute to its
-                      development.
+                      Welcome to &quot;Hammer King,&quot; a thrilling 2D game
+                      developed in Unity! In this game, you play as the mighty
+                      Hammer King, smashing your way through three challenging
+                      levels while accumulating a high score. This README
+                      provides essential information on how to play the game and
+                      contribute to its development.
                     </p>
                   </>
                 ) : (
                   <>
                     <p>
-                      Hammer
-                      King"へようこそ、Unityで開発されたスリリングな2Dゲームです！このゲームでは、強力なハンマーキングとしてプレイし、3つの挑戦的なレベルを駆け抜けながら高得点を積み上げます。このREADMEにはゲームのプレイ方法や開発への貢献に関する重要な情報が記載されています。
+                      HammerKing
+                      へようこそ、Unityで開発されたスリリングな2Dゲームです！このゲームでは、強力なハンマーキングとしてプレイし、3つの挑戦的なレベルを駆け抜けながら高得点を積み上げます。このREADMEにはゲームのプレイ方法や開発への貢献に関する重要な情報が記載されています。
                     </p>
                   </>
                 )}

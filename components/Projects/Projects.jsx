@@ -35,9 +35,9 @@ const Projects = () => {
                 <blockquote className="font-mono font-bold italic p-2 vs:text-3xl md:text-4xl">
                   <p className="drop-shadow-sm text-center">
                     {Lang ? (
-                      <>"Quality craftsmanship, made with heart"</>
+                      <>&quot;Quality craftsmanship, made with heart&quot;</>
                     ) : (
-                      <>"匠の心、技のこころ"</>
+                      <>&quot;匠の心、技のこころ&quot;</>
                     )}
                   </p>
                 </blockquote>

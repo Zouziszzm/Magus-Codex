@@ -21,7 +21,7 @@ const Time = ({ className }) => {
 
     // Clean up the interval when the component unmounts
     return () => clearInterval(intervalId);
-  }, []);
+  });
 
   return (
     <>

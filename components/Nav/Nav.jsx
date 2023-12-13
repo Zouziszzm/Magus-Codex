@@ -25,7 +25,7 @@ const Nav = ({ className }) => {
   useEffect(() => {
     controls.set("initial");
     controls.start("animate");
-  }, []);
+  });
 
   return (
     <>

@@ -15,7 +15,7 @@ const Home = () => {
   useEffect(() => {
     controls.set("initial");
     controls.start("animate");
-  }, []);
+  });
 
   return (
     <>

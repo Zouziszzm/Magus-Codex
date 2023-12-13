@@ -24,7 +24,7 @@ const Mainpg = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, []); // Empty dependency array means this effect runs once when the component mounts
+  }); // Empty dependency array means this effect runs once when the component mounts
 
   const goToTop = () => {
     window.scrollTo({

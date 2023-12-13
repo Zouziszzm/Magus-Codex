@@ -1,5 +1,4 @@
 import { useContext, useEffect } from "react";
-import Image from "next/image";
 import AnimateContext from "@/context/AnimateContext.js";
 import { motion } from "framer-motion";
 import LanguageContext from "@/context/LanguageContext.js";
@@ -93,13 +92,8 @@ const About = () => {
               </div>
             </div>
             <div className="flex p-4 justify-center items-center vs:order-1 vs:w-full lg:order-2 lg:w-1/3">
-              <div className="p-2 border-[1px] my-2 icon_border min-w-fit h-fit">
-                <Image
-                  loading="lazy"
-                  alt="img"
-                  className="rounded-md"
-                  src="/pfp/unnamed.jpg"
-                />
+              <div className="p-2 border-[1px] my-2 icon_border min-w-[200px] min-h-[200px]">
+                <img alt="img" className="rounded-md" src="/pfp/unnamed.jpg" />
               </div>
             </div>
           </div>

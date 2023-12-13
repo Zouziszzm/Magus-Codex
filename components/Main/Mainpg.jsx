@@ -4,6 +4,7 @@ import About from "../About/About.jsx";
 import Nav from "../Nav/Nav.jsx";
 import Profesional_journey from "../prof_Journey/Profesional_journey.jsx";
 import Projects from "../Projects/Projects.jsx";
+import CopyRight from "../CopyRight/CopyRight.jsx";
 import { MdOutlineVerticalAlignTop } from "react-icons/md";
 const Mainpg = () => {
   const [showGoToTopButton, setShowGoToTopButton] = useState(false);
@@ -42,13 +43,14 @@ const Mainpg = () => {
       <div className="z-10 bottom-0 right-[0%] flex justify-end fixed w-full p-4 ">
         {showGoToTopButton && (
           <button
-            className="go-to-top-button w-[25px] h-[25px] border-[1px] icon_border p-2"
+            className="go-to-top-button w-[25px] h-[25px] border-[1px] icon_border p-[2px]"
             onClick={goToTop}
           >
             <MdOutlineVerticalAlignTop className="icon_color w-full h-full" />
           </button>
         )}
       </div>
+      <CopyRight />
     </>
   );
 };

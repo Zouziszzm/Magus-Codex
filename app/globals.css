@@ -8,6 +8,9 @@
   --icon_color: #f8f9fa;
   --introcontrast: #adb5bd;
   --linkcolor: #2d9596;
+  --badgecolor: #908caa;
+  --badgeprojects: #1b4242;
+  --backbuttons: #df826c;
 }
 
 [data-theme="dark"] {
@@ -15,6 +18,9 @@
   --icon_color: #212529;
   --introcontrast: #495057;
   --linkcolor: #2d9596;
+  --badgecolor: #908caa;
+  --badgeprojects: #9bb8cd;
+  --backbuttons: #ffad84;
 }
 
 .bgcolor {
@@ -37,4 +43,14 @@
 }
 .linkcolor {
   color: var(--linkcolor);
+}
+.badgecolor {
+  background-color: var(--badgecolor);
+}
+.badgeproj {
+  background-color: var(--badgeprojects);
+}
+
+.backbutton {
+  background-color: var(--backbuttons);
 }

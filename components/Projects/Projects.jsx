@@ -64,7 +64,7 @@ const Projects = () => {
                 >
                   <div className="p-2 min-w-full border-[1px] icon_border">
                     <img
-                      className="rounded-sm"
+                      className="rounded-sm grayscale hover:grayscale-0"
                       src="projectsthumb/Bookstore.png"
                     />
                   </div>
@@ -79,10 +79,15 @@ const Projects = () => {
                 </div>
               </div>
               <div className="flex justify-center gap-4 flex-col p-4  icon_color vs:w-full lg:w-1/2">
-                <div className="flex flex-col justify-center items-center gap-3 font-not_sans font-normal text-justify w-full">
+                <div
+                  className="flex flex-col justify-center items-center gap-3 font-not_sans font-normal text-justify w-full cursor-pointer"
+                  onClick={() => {
+                    setWpage("HindiOcr");
+                  }}
+                >
                   <div className="p-2 min-w-full border-[1px] icon_border">
                     <img
-                      className="rounded-sm"
+                      className="rounded-sm grayscale hover:grayscale-0"
                       src="projectsthumb/Hindiocr.png"
                     />
                   </div>
@@ -101,9 +106,17 @@ const Projects = () => {
             </div>
             <div className="flex w-[80%] flex-wrap">
               <div className="flex justify-center gap-4 flex-col p-4  icon_color vs:w-full lg:w-1/2">
-                <div className="flex flex-col justify-center items-center gap-3 font-not_sans font-normal text-justify w-full">
+                <div
+                  className="flex flex-col justify-center items-center gap-3 font-not_sans font-normal text-justify w-full cursor-pointer"
+                  onClick={() => {
+                    setWpage("HammerKing");
+                  }}
+                >
                   <div className="p-2 min-w-full border-[1px] icon_border">
-                    <img className="rounded-sm" src="projectsthumb/Game.png" />
+                    <img
+                      className="rounded-sm grayscale hover:grayscale-0"
+                      src="projectsthumb/Game.png"
+                    />
                   </div>
                   <div className="flex flex-col gap-2 w-full justify-center items-center font-noto font-medium">
                     <div className="w-fit">
@@ -118,9 +131,17 @@ const Projects = () => {
                 </div>
               </div>
               <div className="flex justify-center gap-4 flex-col p-4  icon_color vs:w-full lg:w-1/2">
-                <div className="flex flex-col justify-center items-center gap-3 font-not_sans font-normal text-justify w-full">
+                <div
+                  className="flex flex-col justify-center items-center gap-3 font-not_sans font-normal text-justify w-full cursor-pointer"
+                  onClick={() => {
+                    setWpage("Voxel");
+                  }}
+                >
                   <div className="p-2 min-w-full border-[1px] icon_border">
-                    <img className="rounded-sm" src="projectsthumb/Voxel.png" />
+                    <img
+                      className="rounded-sm grayscale hover:grayscale-0"
+                      src="projectsthumb/Voxel.png"
+                    />
                   </div>
                   <div className="flex flex-col gap-2 w-full justify-center items-center font-noto font-medium">
                     <div className="w-fit">
@@ -128,9 +149,8 @@ const Projects = () => {
                     </div>
                     <div className=" vs:w-full vs:text-justify lg:w-[85%] lg:text-center">
                       {Lang
-                        ? "Creating the Japanese-style Hut: For the charming Japanese-style hut, I designed the hut's structure with"
+                        ? "Creating the Japanese-style Hut: For the charming Japanese-style hut, I designed the hut's structure with voxels."
                         : "日本風の小屋の制作：魅力的な日本風の小屋では、ボクセルを使って小屋の構造をデザインしました。"}
-                      voxels.
                     </div>
                   </div>
                 </div>

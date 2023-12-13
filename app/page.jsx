@@ -7,6 +7,8 @@ import HindiOcr from "@/components/HindiOcr/HindiOcr";
 import HammerKing from "@/components/HammerKing/HammerKing";
 import Voxel from "@/components/Voxel/Voxel";
 import WpageContext from "@/context/WpageContext";
+import Nav from "@/components/Nav/Nav";
+import CopyRight from "@/components/CopyRight/CopyRight";
 const Page = () => {
   const [Load, setLoad] = useState(false);
   const { Wpage, setWpage } = useContext(WpageContext);
@@ -14,13 +16,37 @@ const Page = () => {
   const renderComponent = () => {
     switch (Wpage) {
       case "BookStore":
-        return <BookStore />;
+        return (
+          <div className="relative">
+            <Nav className="z-10 fixed w-full backdrop-blur-[10px]" />
+            <BookStore />
+            <CopyRight />
+          </div>
+        );
       case "HindiOcr":
-        return <HindiOcr />;
+        return (
+          <div className="relative">
+            <Nav className="z-10 fixed w-full backdrop-blur-[10px]" />
+            <HindiOcr />
+            <CopyRight />
+          </div>
+        );
       case "HammerKing":
-        return <HammerKing />;
+        return (
+          <div className="relative">
+            <Nav className="z-10 fixed w-full backdrop-blur-[10px]" />
+            <HammerKing />
+            <CopyRight />
+          </div>
+        );
       case "Voxel":
-        return <Voxel />;
+        return (
+          <div className="relative">
+            <Nav className="z-10 fixed w-full backdrop-blur-[10px]" />
+            <Voxel />
+            <CopyRight />
+          </div>
+        );
       default:
         return <Mainpg />;
     }

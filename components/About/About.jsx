@@ -93,7 +93,7 @@ const About = () => {
               </div>
             </div>
             <div className="flex p-4 justify-center items-center vs:order-1 vs:w-full lg:order-2 lg:w-1/3">
-              <div className="p-2 border-[1px] my-2 icon_border w-fit h-fit">
+              <div className="p-2 border-[1px] my-2 icon_border min-w-fit h-fit">
                 <Image
                   loading="lazy"
                   alt="img"

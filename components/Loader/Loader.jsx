@@ -145,7 +145,7 @@ const Loader = ({ redirect }) => {
                 </>
               ) : (
                 <>
-                  <p className="font-bold">ホームページ,</p>
+                  <p className="font-bold">ホームページ</p>
                   <div className="h-[5px] bgcoloediv w-full m-1 flex items-center relative overflow-hidden">
                     <motion.div
                       initial={{ left: "0%", right: "100%" }}

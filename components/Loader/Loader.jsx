@@ -28,7 +28,7 @@ const Loader = ({ redirect }) => {
   useEffect(() => {
     controls.set("initial");
     controls.start("animate");
-  }, [controls]);
+  });
 
   return (
     <>

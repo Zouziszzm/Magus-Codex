@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import LanguageContext from "@/context/LanguageContext.js";
 import WpageContext from "@/context/WpageContext";
 import Link from "next/link";
-import Image from "next/image";
+import img from "next/image";
 const Projects = () => {
   const { Lang, setLang, toggleLang } = useContext(LanguageContext);
   const { controls, animationVariants } = useContext(AnimateContext);
@@ -64,7 +64,7 @@ const Projects = () => {
                   }}
                 >
                   <div className="p-2 min-w-full border-[1px] icon_border">
-                    <Image
+                    <img
                       loading="lazy"
                       alt="img"
                       className="rounded-sm grayscale hover:grayscale-0"
@@ -89,7 +89,7 @@ const Projects = () => {
                   }}
                 >
                   <div className="p-2 min-w-full border-[1px] icon_border">
-                    <Image
+                    <img
                       loading="lazy"
                       alt="img"
                       className="rounded-sm grayscale hover:grayscale-0"
@@ -118,7 +118,7 @@ const Projects = () => {
                   }}
                 >
                   <div className="p-2 min-w-full border-[1px] icon_border">
-                    <Image
+                    <img
                       loading="lazy"
                       alt="img"
                       className="rounded-sm grayscale hover:grayscale-0"
@@ -145,7 +145,7 @@ const Projects = () => {
                   }}
                 >
                   <div className="p-2 min-w-full border-[1px] icon_border">
-                    <Image
+                    <img
                       loading="lazy"
                       alt="img"
                       className="rounded-sm grayscale hover:grayscale-0"

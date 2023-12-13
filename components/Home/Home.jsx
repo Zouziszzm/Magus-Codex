@@ -12,11 +12,6 @@ const Home = () => {
     controls.start("animate");
   };
 
-  useEffect(() => {
-    controls.set("initial");
-    controls.start("animate");
-  });
-
   return (
     <>
       <motion.div

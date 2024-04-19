@@ -4,7 +4,7 @@ const CopyRight = () => {
   return (
     <>
       <div className="flex justify-center introcontrast text-xs p-4">
-        <p>© 2023 AlFarhaanKhan. All Rights Reserved.</p>
+        <p>© 2024 AlFarhaanKhan. All Rights Reserved.</p>
       </div>
     </>
   );

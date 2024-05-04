@@ -36,7 +36,7 @@ const Socials = () => {
         className="relative"
       >
         <div className="flex flex-col items-center h-full items-center">
-          <div className="flex px-4 p h-fit flex-wrap vs:w-full md:w-[85%]">
+          <div className="flex px-4 p h-fit flex-wrap vs:w-full md:w-[60%]">
             <div className="flex justify-center gap-4 flex-col p-4  icon_color w-full">
               <div className="w-fit">
                 <p className="font-noto font-bold text-3xl">

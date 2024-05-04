@@ -77,7 +77,7 @@ const Profesional_journey = () => {
           </div>
         </div>
         <div className="flex justify-center h-full items-center">
-          <div className="flex p-4 py-8 h-fit flex-wrap vs:w-full md:w-[85%]">
+          <div className="flex p-4 py-8 h-fit flex-wrap vs:w-full md:w-[60%]">
             <div className="flex justify-center gap-4 flex-col p-4  icon_color vs:w-full">
               <div className="w-fit">
                 <p className="font-noto font-bold text-3xl">

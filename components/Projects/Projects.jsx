@@ -29,7 +29,7 @@ const Projects = () => {
         className="relative"
       >
         <div className="flex flex-col items-center h-full items-center">
-          <div className="flex py-[7%] p h-fit flex-wrap vs:w-full md:w-[85%]">
+          <div className="flex py-[7%] p h-fit flex-wrap vs:w-full md:w-[60%]">
             <div className="flex justify-center gap-4 flex-col p-4  icon_color w-full">
               <div className="w-full flex justify-center">
                 <blockquote className="font-mono font-bold italic p-2 vs:text-3xl md:text-4xl">
@@ -44,7 +44,7 @@ const Projects = () => {
               </div>
             </div>
           </div>
-          <div className="flex px-4 p h-fit flex-wrap vs:w-full md:w-[85%]">
+          <div className="flex px-4 p h-fit flex-wrap vs:w-full md:w-[60%]">
             <div className="flex justify-center gap-4 flex-col p-4  icon_color w-full">
               <div className="w-fit">
                 <p className="font-noto font-bold text-3xl">

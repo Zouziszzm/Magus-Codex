@@ -26,7 +26,7 @@ const About = () => {
         className="relative"
       >
         <div className="flex justify-center h-full items-center">
-          <div className="flex p-4 py-8 h-fit flex-wrap vs:w-full md:w-[85%]">
+          <div className="flex p-4 py-8 h-fit flex-wrap vs:w-full md:w-[60%]">
             <div className="flex justify-center gap-4 flex-col p-4  icon_color vs:order-2 vs:w-full lg:order-1 lg:w-2/3">
               <div className="w-fit">
                 <p className="font-noto font-bold text-3xl">

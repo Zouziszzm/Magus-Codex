@@ -46,7 +46,7 @@ const Socials = () => {
               </div>
             </div>
           </div>
-          <div className="flex p-4 py-4 h-fit justify-center vs:w-full md:w-[85%]">
+          <div className="flex p-4 py-4 h-fit justify-center vs:w-full md:w-[60%]">
             <div className="flex flex-col gap-2 justify-center w-[85%]">
               <Link href="https://www.github.com/Zouziszzm" target="_blank">
                 <div className="p-2 px-4 flex items-center gap-2 w-fit icon_color badgecolor rounded-md hover:bg-gray-500">

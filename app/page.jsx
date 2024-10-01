@@ -18,7 +18,7 @@ const Page = () => {
       case "BookStore":
         return (
           <div className="relative">
-            <Nav className="z-10 fixed w-full backdrop-blur-[10px]" />
+            <Nav className="z-10 fixed w-full backdrop-blur-[7px]" />
             <BookStore />
             <CopyRight />
           </div>

@@ -26,7 +26,7 @@ const Page = () => {
       case "HindiOcr":
         return (
           <div className="relative">
-            <Nav className="z-10 fixed w-full backdrop-blur-[10px]" />
+            <Nav className="z-10 fixed w-full backdrop-blur-[17px]" />
             <HindiOcr />
             <CopyRight />
           </div>

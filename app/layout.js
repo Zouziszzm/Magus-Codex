@@ -6,7 +6,7 @@ import "./globals.css";
 
 export const metadata = {
   title: "AlFarhaan Khan",
-  description: "AlFarhaan's Portfolio",
+  description: "AlFarhaan's Portfolio site",
   favicon: "/favicon.ico",
 };
 

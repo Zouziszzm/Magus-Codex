@@ -1,56 +1,42 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100;200;300;400;500;600;700;800;900&family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@font-face {
+  font-family: GN;
+  src: url('../fonts/GN/GN-KillGothic-U-KanaNA.ttf')
+}
+
+@font-face {
+  font-family: NJP;
+  src: url('../fonts/NJP/NotoSansJP-Regular.ttf')
+}
+
+@import "tailwindcss";
+
+@theme {
+  --color-background: var(--background);
+  --font-GN: GN;
+  --font-NJP: NJP;
+}
 
 :root {
-  --background_color: #212529;
-  --icon_color: #f8f9fa;
-  --introcontrast: #adb5bd;
-  --linkcolor: #2d9596;
-  --badgecolor: #908caa;
-  --badgeprojects: #1b4242;
-  --backbuttons: #df826c;
+  --background: #F8F7F2;
+  --Display: #202926
 }
 
-[data-theme="dark"] {
-  --background_color: #f8f9fa;
-  --icon_color: #212529;
-  --introcontrast: #495057;
-  --linkcolor: #2d9596;
-  --badgecolor: #908caa;
-  --badgeprojects: #9bb8cd;
-  --backbuttons: #ffad84;
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #16151D;
+    --Display: #DFDCD4
+  }
 }
 
-.bgcolor {
-  background-color: var(--background_color);
-}
-.icon_border {
-  border-color: var(--icon_color);
-}
-.icon_color {
-  color: var(--icon_color);
-}
-.bgcoloediv {
-  background-color: var(--icon_color);
-}
-.bgcolorinverse {
-  background-color: var(--background_color);
-}
-.introcontrast {
-  color: var(--introcontrast);
-}
-.linkcolor {
-  color: var(--linkcolor);
-}
-.badgecolor {
-  background-color: var(--badgecolor);
-}
-.badgeproj {
-  background-color: var(--badgeprojects);
+
+* {
+  box-sizing: border-box;
 }
 
-.backbutton {
-  background-color: var(--backbuttons);
+body {
+  background: var(--background);
+}
+
+.Display-Text {
+  color: var(--Display);
 }

@@ -1,29 +1,24 @@
 {
-  "name": "farhaan's magus-codex",
-  "version": "1.0.0",
+  "name": "Magus-Codex",
+  "description": "A Codex to all Professional achievements of Apex Magus Static",
+  "version": "1.0.2",
+  "author": "Static (Frhaan)",
+  "license": "MIT",
+  "packageManager": "yarn@4.6.0",
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "prettier": "prettier --write .",
+    "Cantation": "next dev",
+    "Invocation": "next build",
+    "A-Invo": "next start",
     "lint": "next lint"
   },
-  "keywords": [],
-  "author": "Farhaan",
-  "license": "MIT",
-  "description": "Farhaan's magus-codex for Professional Journey",
   "dependencies": {
-    "@tailwindcss/postcss": "^4.0.9",
-    "framer-motion": "^12.4.10",
-    "next": "^15.2.0",
-    "postcss": "^8.5.3",
+    "next": "^15.2.3",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "tailwindcss": "^4.0.9"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
-    "@types/node": "22.13.8",
-    "@types/react": "19.0.10",
+    "@types/node": "22.13.13",
+    "@types/react": "19.0.12",
     "typescript": "5.8.2"
   }
 }

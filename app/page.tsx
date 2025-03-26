@@ -1,12 +1,11 @@
-import React from 'react'
-import Home from './Pages/Home'
+import Home from '../components/Home'
 
-const Main = () => {
+const Mina = () => {
   return (
-    <>
+    <div>
       <Home />
-    </>
+    </div>
   )
 }
 
-export default Main
+export default Mina

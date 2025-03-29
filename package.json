@@ -1,24 +1,12 @@
 {
-  "name": "Magus-Codex",
-  "description": "A Codex to all Professional achievements of Apex Magus Static",
-  "version": "1.0.2",
-  "author": "Static (Frhaan)",
-  "license": "MIT",
-  "packageManager": "yarn@4.6.0",
+  "name": "magus-codex",
+  "version": "1.0.0",
+  "main": "index.js",
   "scripts": {
-    "Cantation": "next dev",
-    "Invocation": "next build",
-    "A-Invo": "next start",
-    "lint": "next lint"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "next": "^15.2.3",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
-  },
-  "devDependencies": {
-    "@types/node": "22.13.13",
-    "@types/react": "19.0.12",
-    "typescript": "5.8.2"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
 }

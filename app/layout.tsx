@@ -1,4 +1,10 @@
 import './globals.css'
+export const metadata = {
+  title: "AlFarhaan Khan (Static )",
+  description: "AlFarhaan's Portfolio site",
+  // favicon: "/favicon.ico",
+};
+
 export default function RootLayout({
   children,
 }: {

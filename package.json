@@ -1,29 +1,28 @@
 {
-  "name": "farhaan's magus-codex",
-  "version": "1.0.0",
+  "name": "Apex Magus-Codex",
+  "version": "2.2.2",
+  "description": "Codex To professional journey of farhaan",
+  "main": "index.js",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "prettier": "prettier --write .",
     "lint": "next lint"
   },
   "keywords": [],
-  "author": "Farhaan",
+  "author": "",
   "license": "MIT",
-  "description": "Farhaan's magus-codex for Professional Journey",
   "dependencies": {
-    "@tailwindcss/postcss": "^4.0.9",
-    "framer-motion": "^12.4.10",
-    "next": "^15.2.0",
+    "@tailwindcss/postcss": "^4.0.17",
+    "next": "^15.2.4",
     "postcss": "^8.5.3",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "tailwindcss": "^4.0.9"
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "tailwindcss": "^4.0.17"
   },
   "devDependencies": {
-    "@types/node": "22.13.8",
-    "@types/react": "19.0.10",
+    "@types/node": "22.13.14",
+    "@types/react": "19.0.12",
     "typescript": "5.8.2"
   }
 }

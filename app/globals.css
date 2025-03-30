@@ -1,30 +1,27 @@
-@font-face {
-  font-family: GN;
-  src: url('../fonts/GN/GN-KillGothic-U-KanaNA.ttf')
-}
-
-@font-face {
-  font-family: NJP;
-  src: url('../fonts/NJP/NotoSansJP-Regular.ttf')
-}
-
 @import "tailwindcss";
+
+
+/*@font-face {
+   font-family: GN;
+   src: url('../fonts/GN/GN-KillGothic-U-KanaNA.ttf')
+ }
+ 
+ @font-face {
+   font-family: NJP;
+   src: url('../fonts/NJP/NotoSansJP-Regular.ttf')
+ }*/
 
 @theme {
   --color-background: var(--background);
-  --font-GN: GN;
-  --font-NJP: NJP;
 }
 
 :root {
-  --background: #F8F7F2;
-  --Display: #202926
+  --background: #F8F8FF;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #16151D;
-    --Display: #DFDCD4
+    --background: #F8F8FF;
   }
 }
 
@@ -35,8 +32,4 @@
 
 body {
   background: var(--background);
-}
-
-.Display-Text {
-  color: var(--Display);
 }

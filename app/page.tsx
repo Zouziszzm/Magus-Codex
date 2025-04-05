@@ -1,10 +1,10 @@
 import React from 'react'
 import Loader from '../components/Loader'
 
-const Main = () => {
+const Mains = () => {
   return (
     <Loader />
   )
 }
 
-export default Main
+export default Mains

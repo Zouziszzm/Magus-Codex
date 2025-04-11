@@ -1,4 +1,6 @@
 import React from 'react';
+import './globals.css';
+import { ThemeProvider } from '../context/ThemeContext';
 export const metadata = {
   title: 'AlFarhaan Khan (Static )',
   description: "AlFarhaan's Portfolio site",
@@ -11,7 +13,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        <ThemeProvider>{children}</ThemeProvider>
+      </body>
     </html>
   );
 }
